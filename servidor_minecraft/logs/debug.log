@@ -1,0 +1,634 @@
+[14Dec2024 03:15:25.992] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.0, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[14Dec2024 03:15:26.002] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 21.0.4 by Microsoft
+[14Dec2024 03:15:26.018] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[14Dec2024 03:15:26.031] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[14Dec2024 03:15:26.044] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[14Dec2024 03:15:26.058] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[14Dec2024 03:15:26.091] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: java.util.stream.ReferencePipeline$3@64ba3208
+[14Dec2024 03:15:26.104] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[14Dec2024 03:15:26.105] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[14Dec2024 03:15:26.106] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[14Dec2024 03:15:26.106] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[14Dec2024 03:15:26.107] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[14Dec2024 03:15:26.109] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[14Dec2024 03:15:26.109] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[14Dec2024 03:15:26.109] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 9.1.3+9.1.3+main.9b69c82a
+[14Dec2024 03:15:26.110] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[14Dec2024 03:15:26.115] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 5.0.3+70+master.d7d405b
+[14Dec2024 03:15:26.116] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[14Dec2024 03:15:26.119] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+[14Dec2024 03:15:26.119] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 4.0.15-4.x+4.0.15-4.x+4.x.038e91c0
+[14Dec2024 03:15:26.120] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 4
+[14Dec2024 03:15:26.122] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[14Dec2024 03:15:26.123] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[14Dec2024 03:15:26.133] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[14Dec2024 03:15:26.134] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[14Dec2024 03:15:26.156] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@6e06451e
+[14Dec2024 03:15:26.182] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MSP.20/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[14Dec2024 03:15:26.188] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[14Dec2024 03:15:26.189] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[14Dec2024 03:15:26.190] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[14Dec2024 03:15:26.191] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[14Dec2024 03:15:26.192] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[14Dec2024 03:15:26.192] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[14Dec2024 03:15:26.195] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[14Dec2024 03:15:26.195] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[14Dec2024 03:15:26.196] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[14Dec2024 03:15:26.197] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : /workspaces/MSP.20/servidor_minecraft
+[14Dec2024 03:15:26.198] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/MSP.20/servidor_minecraft
+[14Dec2024 03:15:26.198] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : /workspaces/MSP.20/servidor_minecraft/mods
+[14Dec2024 03:15:26.199] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/MSP.20/servidor_minecraft/mods
+[14Dec2024 03:15:26.199] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : /workspaces/MSP.20/servidor_minecraft/config
+[14Dec2024 03:15:26.199] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/MSP.20/servidor_minecraft/config
+[14Dec2024 03:15:26.199] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/MSP.20/servidor_minecraft/config/fml.toml
+[14Dec2024 03:15:26.200] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[14Dec2024 03:15:26.255] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : /workspaces/MSP.20/servidor_minecraft/defaultconfigs
+[14Dec2024 03:15:26.255] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[14Dec2024 03:15:26.261] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[14Dec2024 03:15:26.261] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeserver as launch service
+[14Dec2024 03:15:26.300] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=40.2.0, mcVersion=1.18.2, mcpVersion=20220404.173914, forgeGroup=net.minecraftforge]
+[14Dec2024 03:15:26.305] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[14Dec2024 03:15:26.306] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[14Dec2024 03:15:26.307] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[14Dec2024 03:15:26.307] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[14Dec2024 03:15:26.308] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[14Dec2024 03:15:26.309] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[14Dec2024 03:15:26.309] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[14Dec2024 03:15:26.309] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[14Dec2024 03:15:26.328] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[14Dec2024 03:15:26.331] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null),(JarInJar:null)
+[14Dec2024 03:15:26.357] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/[1.18.2] SecurityCraft v1.9.11.jar
+[14Dec2024 03:15:26.436] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file [1.18.2] SecurityCraft v1.9.11.jar with {securitycraft} mods - versions {1.9.11}
+[14Dec2024 03:15:26.445] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/alexsmobs-1.18.6.jar
+[14Dec2024 03:15:26.448] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file alexsmobs-1.18.6.jar with {alexsmobs} mods - versions {1.18.6}
+[14Dec2024 03:15:26.450] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/architectury-4.12.94-forge.jar
+[14Dec2024 03:15:26.453] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file architectury-4.12.94-forge.jar with {architectury} mods - versions {4.12.94}
+[14Dec2024 03:15:26.459] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/BiomesOPlenty-1.18.2-16.0.0.134.jar
+[14Dec2024 03:15:26.462] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file BiomesOPlenty-1.18.2-16.0.0.134.jar with {biomesoplenty} mods - versions {0.0NONE}
+[14Dec2024 03:15:26.484] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/Bookshelf-Forge-1.18.2-13.3.56.jar
+[14Dec2024 03:15:26.486] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Bookshelf-Forge-1.18.2-13.3.56.jar with {bookshelf} mods - versions {13.3.56}
+[14Dec2024 03:15:26.494] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/cfm-7.0.0-pre35-1.18.2.jar
+[14Dec2024 03:15:26.497] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cfm-7.0.0-pre35-1.18.2.jar with {cfm} mods - versions {7.0.0-pre35}
+[14Dec2024 03:15:26.498] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/citadel-1.11.3-1.18.2.jar
+[14Dec2024 03:15:26.500] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file citadel-1.11.3-1.18.2.jar with {citadel} mods - versions {1.11.3}
+[14Dec2024 03:15:26.502] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/DungeonCrawl-1.18.2-2.3.14.jar
+[14Dec2024 03:15:26.506] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file DungeonCrawl-1.18.2-2.3.14.jar with {dungeoncrawl} mods - versions {2.3.14}
+[14Dec2024 03:15:26.513] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/EnchantmentDescriptions-Forge-1.18.2-10.0.12.jar
+[14Dec2024 03:15:26.525] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file EnchantmentDescriptions-Forge-1.18.2-10.0.12.jar with {enchdesc} mods - versions {10.0.12}
+[14Dec2024 03:15:26.528] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/framework-forge-1.18.2-0.4.3.jar
+[14Dec2024 03:15:26.534] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file framework-forge-1.18.2-0.4.3.jar with {framework} mods - versions {0.4.3}
+[14Dec2024 03:15:26.536] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/jei-1.18.2-9.7.2.1001.jar
+[14Dec2024 03:15:26.558] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.18.2-9.7.2.1001.jar with {jei} mods - versions {9.7.2.1001}
+[14Dec2024 03:15:26.568] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/journeymap-1.18.2-5.9.8-forge.jar
+[14Dec2024 03:15:26.576] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file journeymap-1.18.2-5.9.8-forge.jar with {journeymap} mods - versions {5.9.8}
+[14Dec2024 03:15:26.578] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/justhammers-forge-0.1.1+mc1.18.2.jar
+[14Dec2024 03:15:26.580] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file justhammers-forge-0.1.1+mc1.18.2.jar with {justhammers} mods - versions {0.1.1+mc1.18.2}
+[14Dec2024 03:15:26.582] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/lumberjack-2.3.2.jar
+[14Dec2024 03:15:26.583] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file lumberjack-2.3.2.jar with {lumberjack} mods - versions {2.3.2}
+[14Dec2024 03:15:26.586] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/puffish_skills-0.14.3-1.18.2-forge.jar
+[14Dec2024 03:15:26.588] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file puffish_skills-0.14.3-1.18.2-forge.jar with {puffish_skills} mods - versions {0.14.3}
+[14Dec2024 03:15:26.589] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/silent-lib-1.18.2-6.2.0.jar
+[14Dec2024 03:15:26.590] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file silent-lib-1.18.2-6.2.0.jar with {silentlib} mods - versions {6.2.0}
+[14Dec2024 03:15:26.598] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/sophisticatedbackpacks-1.18.2-3.20.3.1063.jar
+[14Dec2024 03:15:26.600] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file sophisticatedbackpacks-1.18.2-3.20.3.1063.jar with {sophisticatedbackpacks} mods - versions {1.18.2-3.20.3.1063}
+[14Dec2024 03:15:26.603] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/sophisticatedcore-1.18.2-0.6.4.604.jar
+[14Dec2024 03:15:26.604] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file sophisticatedcore-1.18.2-0.6.4.604.jar with {sophisticatedcore} mods - versions {1.18.2-0.6.4.604}
+[14Dec2024 03:15:26.610] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/SpartanWeaponry-1.18.2-3.0.5-all.jar
+[14Dec2024 03:15:26.614] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file SpartanWeaponry-1.18.2-3.0.5-all.jar with {spartanweaponry} mods - versions {3.0.5}
+[14Dec2024 03:15:26.621] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/tac-0.3.10.1-1.18.2.jar
+[14Dec2024 03:15:26.622] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file tac-0.3.10.1-1.18.2.jar with {tac} mods - versions {0.3.10-1.18.2}
+[14Dec2024 03:15:26.623] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/TerraBlender-forge-1.18.2-1.2.0.126.jar
+[14Dec2024 03:15:26.623] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file TerraBlender-forge-1.18.2-1.2.0.126.jar with {terrablender} mods - versions {1.2.0.126}
+[14Dec2024 03:15:26.624] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/theoneprobe-1.18-5.1.2.jar
+[14Dec2024 03:15:26.625] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file theoneprobe-1.18-5.1.2.jar with {theoneprobe} mods - versions {1.18-5.1.2}
+[14Dec2024 03:15:26.626] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/timecontrol-1.18.1-1.1.3.0.jar
+[14Dec2024 03:15:26.626] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file timecontrol-1.18.1-1.1.3.0.jar with {timecontrol} mods - versions {1.1.3.0}
+[14Dec2024 03:15:26.635] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/tl_skin_cape_forge_1.18_1.18.2-1.25.jar
+[14Dec2024 03:15:26.636] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file tl_skin_cape_forge_1.18_1.18.2-1.25.jar with {tlskincape} mods - versions {1.25}
+[14Dec2024 03:15:26.637] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/ToolBelt-1.18.2-1.18.9.jar
+[14Dec2024 03:15:26.638] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ToolBelt-1.18.2-1.18.9.jar with {toolbelt} mods - versions {1.18.9}
+[14Dec2024 03:15:26.656] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/u_team_core-forge-1.18.2-4.0.1.323.jar
+[14Dec2024 03:15:26.658] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file u_team_core-forge-1.18.2-4.0.1.323.jar with {uteamcore} mods - versions {4.0.1.323}
+[14Dec2024 03:15:26.668] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/useful_backpacks-1.18.2-1.12.2.94.jar
+[14Dec2024 03:15:26.671] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file useful_backpacks-1.18.2-1.12.2.94.jar with {usefulbackpacks} mods - versions {1.12.2.94}
+[14Dec2024 03:15:27.009] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.18.2-20220404.173914-srg.jar with {minecraft} mods - versions {1.18.2}
+[14Dec2024 03:15:27.017] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.0/fmlcore-1.18.2-40.2.0.jar
+[14Dec2024 03:15:27.017] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP.20/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.0/fmlcore-1.18.2-40.2.0.jar is missing mods.toml file
+[14Dec2024 03:15:27.023] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.0/javafmllanguage-1.18.2-40.2.0.jar
+[14Dec2024 03:15:27.025] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP.20/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.0/javafmllanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[14Dec2024 03:15:27.027] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.0/lowcodelanguage-1.18.2-40.2.0.jar
+[14Dec2024 03:15:27.028] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP.20/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.0/lowcodelanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[14Dec2024 03:15:27.030] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.0/mclanguage-1.18.2-40.2.0.jar
+[14Dec2024 03:15:27.031] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP.20/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.0/mclanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[14Dec2024 03:15:27.078] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.2.0/forge-1.18.2-40.2.0-universal.jar
+[14Dec2024 03:15:27.082] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.18.2-40.2.0-universal.jar with {forge} mods - versions {40.2.0}
+[14Dec2024 03:15:27.125] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from server-1.18.2-20220404.173914-srg.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.125] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from timecontrol-1.18.1-1.1.3.0.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.126] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from useful_backpacks-1.18.2-1.12.2.94.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.126] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from puffish_skills-0.14.3-1.18.2-forge.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.126] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from EnchantmentDescriptions-Forge-1.18.2-10.0.12.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.127] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from theoneprobe-1.18-5.1.2.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.127] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from TerraBlender-forge-1.18.2-1.2.0.126.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.127] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from ToolBelt-1.18.2-1.18.9.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.128] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from alexsmobs-1.18.6.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.128] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from silent-lib-1.18.2-6.2.0.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.128] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from BiomesOPlenty-1.18.2-16.0.0.134.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.129] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from justhammers-forge-0.1.1+mc1.18.2.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.129] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from jei-1.18.2-9.7.2.1001.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.129] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from tac-0.3.10.1-1.18.2.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.130] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from sophisticatedcore-1.18.2-0.6.4.604.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.130] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from journeymap-1.18.2-5.9.8-forge.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.131] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from citadel-1.11.3-1.18.2.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.131] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from [1.18.2] SecurityCraft v1.9.11.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.131] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from DungeonCrawl-1.18.2-2.3.14.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.132] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from Bookshelf-Forge-1.18.2-13.3.56.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.132] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from sophisticatedbackpacks-1.18.2-3.20.3.1063.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.132] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from u_team_core-forge-1.18.2-4.0.1.323.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.133] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from cfm-7.0.0-pre35-1.18.2.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.133] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from architectury-4.12.94-forge.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.134] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from framework-forge-1.18.2-0.4.3.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.134] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.18.2-40.2.0-universal.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.134] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from tl_skin_cape_forge_1.18_1.18.2-1.25.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.135] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from lumberjack-2.3.2.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.135] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.18.2-40.2.0.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.135] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.18.2-40.2.0.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.136] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.18.2-40.2.0.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.136] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.18.2-40.2.0.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.201] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /META-INF/jarjar/mixinextras-forge-0.3.5.jar
+[14Dec2024 03:15:27.202] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.3.5.jar with {mixinextras} mods - versions {0.3.5}
+[14Dec2024 03:15:27.214] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from MixinExtras-0.3.5.jar, it does not contain dependency information.
+[14Dec2024 03:15:27.275] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /META-INF/jarjar/mixinextras-forge-0.3.5.jar
+[14Dec2024 03:15:27.275] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.3.5.jar with {mixinextras} mods - versions {0.3.5}
+[14Dec2024 03:15:27.277] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[14Dec2024 03:15:27.286] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.18.2-20220404.173914-srg.jar with {minecraft} mods - versions {1.18.2}
+[14Dec2024 03:15:27.291] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[14Dec2024 03:15:27.292] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/timecontrol-1.18.1-1.1.3.0.jar
+[14Dec2024 03:15:27.295] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file timecontrol-1.18.1-1.1.3.0.jar with {timecontrol} mods - versions {1.1.3.0}
+[14Dec2024 03:15:27.295] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/timecontrol-1.18.1-1.1.3.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[14Dec2024 03:15:27.296] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/useful_backpacks-1.18.2-1.12.2.94.jar
+[14Dec2024 03:15:27.298] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file useful_backpacks-1.18.2-1.12.2.94.jar with {usefulbackpacks} mods - versions {1.12.2.94}
+[14Dec2024 03:15:27.299] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/useful_backpacks-1.18.2-1.12.2.94.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2024 03:15:27.299] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/EnchantmentDescriptions-Forge-1.18.2-10.0.12.jar
+[14Dec2024 03:15:27.300] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file EnchantmentDescriptions-Forge-1.18.2-10.0.12.jar with {enchdesc} mods - versions {10.0.12}
+[14Dec2024 03:15:27.300] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/EnchantmentDescriptions-Forge-1.18.2-10.0.12.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[14Dec2024 03:15:27.300] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/puffish_skills-0.14.3-1.18.2-forge.jar
+[14Dec2024 03:15:27.305] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file puffish_skills-0.14.3-1.18.2-forge.jar with {puffish_skills} mods - versions {0.14.3}
+[14Dec2024 03:15:27.306] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/puffish_skills-0.14.3-1.18.2-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2024 03:15:27.306] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/TerraBlender-forge-1.18.2-1.2.0.126.jar
+[14Dec2024 03:15:27.308] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file TerraBlender-forge-1.18.2-1.2.0.126.jar with {terrablender} mods - versions {1.2.0.126}
+[14Dec2024 03:15:27.309] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/TerraBlender-forge-1.18.2-1.2.0.126.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2024 03:15:27.309] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/theoneprobe-1.18-5.1.2.jar
+[14Dec2024 03:15:27.310] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file theoneprobe-1.18-5.1.2.jar with {theoneprobe} mods - versions {1.18-5.1.2}
+[14Dec2024 03:15:27.311] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/theoneprobe-1.18-5.1.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[14Dec2024 03:15:27.311] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/ToolBelt-1.18.2-1.18.9.jar
+[14Dec2024 03:15:27.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ToolBelt-1.18.2-1.18.9.jar with {toolbelt} mods - versions {1.18.9}
+[14Dec2024 03:15:27.312] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/ToolBelt-1.18.2-1.18.9.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[14Dec2024 03:15:27.313] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/alexsmobs-1.18.6.jar
+[14Dec2024 03:15:27.315] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file alexsmobs-1.18.6.jar with {alexsmobs} mods - versions {1.18.6}
+[14Dec2024 03:15:27.315] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/alexsmobs-1.18.6.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2024 03:15:27.315] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/BiomesOPlenty-1.18.2-16.0.0.134.jar
+[14Dec2024 03:15:27.316] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file BiomesOPlenty-1.18.2-16.0.0.134.jar with {biomesoplenty} mods - versions {0.0NONE}
+[14Dec2024 03:15:27.317] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/BiomesOPlenty-1.18.2-16.0.0.134.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[14Dec2024 03:15:27.317] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/silent-lib-1.18.2-6.2.0.jar
+[14Dec2024 03:15:27.318] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file silent-lib-1.18.2-6.2.0.jar with {silentlib} mods - versions {6.2.0}
+[14Dec2024 03:15:27.318] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/silent-lib-1.18.2-6.2.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2024 03:15:27.318] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/justhammers-forge-0.1.1+mc1.18.2.jar
+[14Dec2024 03:15:27.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file justhammers-forge-0.1.1+mc1.18.2.jar with {justhammers} mods - versions {0.1.1+mc1.18.2}
+[14Dec2024 03:15:27.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/justhammers-forge-0.1.1+mc1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2024 03:15:27.320] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/jei-1.18.2-9.7.2.1001.jar
+[14Dec2024 03:15:27.323] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.18.2-9.7.2.1001.jar with {jei} mods - versions {9.7.2.1001}
+[14Dec2024 03:15:27.323] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/jei-1.18.2-9.7.2.1001.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2024 03:15:27.324] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/sophisticatedcore-1.18.2-0.6.4.604.jar
+[14Dec2024 03:15:27.325] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file sophisticatedcore-1.18.2-0.6.4.604.jar with {sophisticatedcore} mods - versions {1.18.2-0.6.4.604}
+[14Dec2024 03:15:27.326] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/sophisticatedcore-1.18.2-0.6.4.604.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[18,)]]
+[14Dec2024 03:15:27.326] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/tac-0.3.10.1-1.18.2.jar
+[14Dec2024 03:15:27.327] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file tac-0.3.10.1-1.18.2.jar with {tac} mods - versions {0.3.10-1.18.2}
+[14Dec2024 03:15:27.329] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/tac-0.3.10.1-1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[32,)]]
+[14Dec2024 03:15:27.330] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/journeymap-1.18.2-5.9.8-forge.jar
+[14Dec2024 03:15:27.332] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file journeymap-1.18.2-5.9.8-forge.jar with {journeymap} mods - versions {5.9.8}
+[14Dec2024 03:15:27.333] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/journeymap-1.18.2-5.9.8-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2024 03:15:27.336] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod journeymap potion effect transformer with Javascript path potion-effects-shift.js
+[14Dec2024 03:15:27.336] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod potion-effects-shift.js
+[14Dec2024 03:15:27.337] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/[1.18.2] SecurityCraft v1.9.11.jar
+[14Dec2024 03:15:27.340] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file [1.18.2] SecurityCraft v1.9.11.jar with {securitycraft} mods - versions {1.9.11}
+[14Dec2024 03:15:27.341] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/[1.18.2] SecurityCraft v1.9.11.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2024 03:15:27.341] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/citadel-1.11.3-1.18.2.jar
+[14Dec2024 03:15:27.345] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file citadel-1.11.3-1.18.2.jar with {citadel} mods - versions {1.11.3}
+[14Dec2024 03:15:27.345] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/citadel-1.11.3-1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2024 03:15:27.345] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/DungeonCrawl-1.18.2-2.3.14.jar
+[14Dec2024 03:15:27.346] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file DungeonCrawl-1.18.2-2.3.14.jar with {dungeoncrawl} mods - versions {2.3.14}
+[14Dec2024 03:15:27.346] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/DungeonCrawl-1.18.2-2.3.14.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2024 03:15:27.347] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/Bookshelf-Forge-1.18.2-13.3.56.jar
+[14Dec2024 03:15:27.347] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Bookshelf-Forge-1.18.2-13.3.56.jar with {bookshelf} mods - versions {13.3.56}
+[14Dec2024 03:15:27.347] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/Bookshelf-Forge-1.18.2-13.3.56.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2024 03:15:27.348] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/sophisticatedbackpacks-1.18.2-3.20.3.1063.jar
+[14Dec2024 03:15:27.348] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file sophisticatedbackpacks-1.18.2-3.20.3.1063.jar with {sophisticatedbackpacks} mods - versions {1.18.2-3.20.3.1063}
+[14Dec2024 03:15:27.348] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/sophisticatedbackpacks-1.18.2-3.20.3.1063.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[18,)]]
+[14Dec2024 03:15:27.349] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/u_team_core-forge-1.18.2-4.0.1.323.jar
+[14Dec2024 03:15:27.350] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file u_team_core-forge-1.18.2-4.0.1.323.jar with {uteamcore} mods - versions {4.0.1.323}
+[14Dec2024 03:15:27.350] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/u_team_core-forge-1.18.2-4.0.1.323.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2024 03:15:27.350] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod UContainerMenu Init Menu Hook with Javascript path asm/ucontainermenu-init-menu.js
+[14Dec2024 03:15:27.351] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/ucontainermenu-init-menu.js
+[14Dec2024 03:15:27.353] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/SpartanWeaponry-1.18.2-3.0.5-all.jar
+[14Dec2024 03:15:27.360] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file SpartanWeaponry-1.18.2-3.0.5-all.jar with {spartanweaponry} mods - versions {3.0.5}
+[14Dec2024 03:15:27.360] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/SpartanWeaponry-1.18.2-3.0.5-all.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2024 03:15:27.361] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/architectury-4.12.94-forge.jar
+[14Dec2024 03:15:27.362] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file architectury-4.12.94-forge.jar with {architectury} mods - versions {4.12.94}
+[14Dec2024 03:15:27.362] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/architectury-4.12.94-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[14Dec2024 03:15:27.362] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/cfm-7.0.0-pre35-1.18.2.jar
+[14Dec2024 03:15:27.363] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cfm-7.0.0-pre35-1.18.2.jar with {cfm} mods - versions {7.0.0-pre35}
+[14Dec2024 03:15:27.364] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/cfm-7.0.0-pre35-1.18.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[14Dec2024 03:15:27.365] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/framework-forge-1.18.2-0.4.3.jar
+[14Dec2024 03:15:27.366] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file framework-forge-1.18.2-0.4.3.jar with {framework} mods - versions {0.4.3}
+[14Dec2024 03:15:27.366] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/framework-forge-1.18.2-0.4.3.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[14Dec2024 03:15:27.366] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.2.0/forge-1.18.2-40.2.0-universal.jar
+[14Dec2024 03:15:27.366] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.18.2-40.2.0-universal.jar with {forge} mods - versions {40.2.0}
+[14Dec2024 03:15:27.367] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.2.0/forge-1.18.2-40.2.0-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[14Dec2024 03:15:27.368] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[14Dec2024 03:15:27.370] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[14Dec2024 03:15:27.370] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[14Dec2024 03:15:27.370] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod registry_object_binary_compat with Javascript path coremods/registry_object_binary_compat.js
+[14Dec2024 03:15:27.370] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[14Dec2024 03:15:27.371] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[14Dec2024 03:15:27.372] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[14Dec2024 03:15:27.372] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/registry_object_binary_compat.js
+[14Dec2024 03:15:27.373] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/tl_skin_cape_forge_1.18_1.18.2-1.25.jar
+[14Dec2024 03:15:27.373] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file tl_skin_cape_forge_1.18_1.18.2-1.25.jar with {tlskincape} mods - versions {1.25}
+[14Dec2024 03:15:27.375] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/tl_skin_cape_forge_1.18_1.18.2-1.25.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[25,)]]
+[14Dec2024 03:15:27.375] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/MSP.20/servidor_minecraft/mods/lumberjack-2.3.2.jar
+[14Dec2024 03:15:27.376] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file lumberjack-2.3.2.jar with {lumberjack} mods - versions {2.3.2}
+[14Dec2024 03:15:27.376] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/MSP.20/servidor_minecraft/mods/lumberjack-2.3.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+[14Dec2024 03:15:27.379] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /META-INF/jarjar/mixinextras-forge-0.3.5.jar
+[14Dec2024 03:15:27.380] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.3.5.jar with {mixinextras} mods - versions {0.3.5}
+[14Dec2024 03:15:27.387] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /META-INF/jarjar/mixinextras-forge-0.3.5.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=*]]
+[14Dec2024 03:15:27.387] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /META-INF/jars/MixinExtras-0.3.5.jar with languages []
+[14Dec2024 03:15:27.389] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[14Dec2024 03:15:27.409] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[14Dec2024 03:15:27.413] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[14Dec2024 03:15:27.416] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 40
+[14Dec2024 03:15:27.416] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 40
+[14Dec2024 03:15:27.427] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[14Dec2024 03:15:27.427] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[14Dec2024 03:15:27.427] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[14Dec2024 03:15:27.431] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 48 mod requirements (43 mandatory, 5 optional)
+[14Dec2024 03:15:27.432] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[14Dec2024 03:15:28.336] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[14Dec2024 03:15:28.337] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[14Dec2024 03:15:28.338] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[14Dec2024 03:15:28.338] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[14Dec2024 03:15:28.338] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[14Dec2024 03:15:28.339] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from potion-effects-shift.js
+[14Dec2024 03:15:28.993] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[14Dec2024 03:15:28.999] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/ucontainermenu-init-menu.js
+[14Dec2024 03:15:29.039] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[14Dec2024 03:15:29.040] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[14Dec2024 03:15:29.072] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[14Dec2024 03:15:29.081] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[14Dec2024 03:15:29.148] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[14Dec2024 03:15:29.148] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[14Dec2024 03:15:29.245] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[14Dec2024 03:15:29.245] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/registry_object_binary_compat.js
+[14Dec2024 03:15:29.315] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[14Dec2024 03:15:29.335] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@862f408 to Target : METHOD {Lnet/minecraft/client/gui/Gui;} {m_93028_} {(Lcom/mojang/blaze3d/vertex/PoseStack;)V}
+[14Dec2024 03:15:29.336] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@7bab5898 to Target : METHOD {Lnet/minecraft/server/level/ServerPlayer;} {m_143399_} {(Lnet/minecraft/world/inventory/AbstractContainerMenu;)V}
+[14Dec2024 03:15:29.336] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@feb98ef to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[14Dec2024 03:15:29.338] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7654f833 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[14Dec2024 03:15:29.338] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@571a01f9 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[14Dec2024 03:15:29.338] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@d7109be to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[14Dec2024 03:15:29.339] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5e0ec41f to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[14Dec2024 03:15:29.339] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@f4a3a8d to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[14Dec2024 03:15:29.340] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@8d8f754 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[14Dec2024 03:15:29.341] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@d613308 to Target : CLASS {Lnet/minecraftforge/registries/RegistryObject;} {} {V}
+[14Dec2024 03:15:29.341] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[14Dec2024 03:15:32.909] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[14Dec2024 03:15:32.909] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[14Dec2024 03:15:32.909] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[14Dec2024 03:15:32.910] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[14Dec2024 03:15:32.910] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[14Dec2024 03:15:32.910] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[14Dec2024 03:15:32.910] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[14Dec2024 03:15:32.910] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[14Dec2024 03:15:32.911] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(timecontrol)
+[14Dec2024 03:15:32.911] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(timecontrol)
+[14Dec2024 03:15:32.911] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(timecontrol)
+[14Dec2024 03:15:32.912] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(timecontrol)
+[14Dec2024 03:15:32.912] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(timecontrol)
+[14Dec2024 03:15:32.913] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(timecontrol)]
+[14Dec2024 03:15:32.913] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(usefulbackpacks)
+[14Dec2024 03:15:32.913] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(usefulbackpacks)
+[14Dec2024 03:15:32.914] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(usefulbackpacks)
+[14Dec2024 03:15:32.914] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(usefulbackpacks)
+[14Dec2024 03:15:32.914] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(usefulbackpacks)
+[14Dec2024 03:15:32.914] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(usefulbackpacks)]
+[14Dec2024 03:15:32.915] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(enchdesc)
+[14Dec2024 03:15:32.915] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(enchdesc)
+[14Dec2024 03:15:32.915] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(enchdesc)
+[14Dec2024 03:15:32.915] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(enchdesc)
+[14Dec2024 03:15:32.915] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(enchdesc)
+[14Dec2024 03:15:32.915] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(enchdesc)]
+[14Dec2024 03:15:32.916] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(puffish_skills)
+[14Dec2024 03:15:32.916] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(puffish_skills)
+[14Dec2024 03:15:32.916] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(puffish_skills)
+[14Dec2024 03:15:32.916] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(puffish_skills)
+[14Dec2024 03:15:32.916] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(puffish_skills)
+[14Dec2024 03:15:32.917] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(puffish_skills)]
+[14Dec2024 03:15:32.917] [main/DEBUG] [mixin/]: Registering mixin config: puffish_skills.mixins.json
+[14Dec2024 03:15:32.943] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by puffish_skills.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[14Dec2024 03:15:32.949] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14Dec2024 03:15:32.951] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(terrablender)
+[14Dec2024 03:15:32.952] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(terrablender)
+[14Dec2024 03:15:32.952] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(terrablender)
+[14Dec2024 03:15:32.952] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(terrablender)
+[14Dec2024 03:15:32.952] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(terrablender)
+[14Dec2024 03:15:32.952] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(terrablender)]
+[14Dec2024 03:15:32.953] [main/DEBUG] [mixin/]: Registering mixin config: terrablender.mixins.json
+[14Dec2024 03:15:32.965] [main/DEBUG] [mixin/]: Registering mixin config: terrablender_forge.mixins.json
+[14Dec2024 03:15:32.970] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(theoneprobe)
+[14Dec2024 03:15:32.971] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(theoneprobe)
+[14Dec2024 03:15:32.971] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(theoneprobe)
+[14Dec2024 03:15:32.971] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(theoneprobe)
+[14Dec2024 03:15:32.971] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(theoneprobe)
+[14Dec2024 03:15:32.972] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(theoneprobe)]
+[14Dec2024 03:15:32.972] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(toolbelt)
+[14Dec2024 03:15:32.972] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(toolbelt)
+[14Dec2024 03:15:32.972] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(toolbelt)
+[14Dec2024 03:15:32.973] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(toolbelt)
+[14Dec2024 03:15:32.973] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(toolbelt)
+[14Dec2024 03:15:32.973] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(toolbelt)]
+[14Dec2024 03:15:32.973] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(alexsmobs)
+[14Dec2024 03:15:32.973] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(alexsmobs)
+[14Dec2024 03:15:32.974] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(alexsmobs)
+[14Dec2024 03:15:32.974] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(alexsmobs)
+[14Dec2024 03:15:32.974] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(alexsmobs)
+[14Dec2024 03:15:32.974] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(alexsmobs)]
+[14Dec2024 03:15:32.974] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(biomesoplenty)
+[14Dec2024 03:15:32.975] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(biomesoplenty)
+[14Dec2024 03:15:32.975] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(biomesoplenty)
+[14Dec2024 03:15:32.975] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(biomesoplenty)
+[14Dec2024 03:15:32.975] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(biomesoplenty)
+[14Dec2024 03:15:32.975] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(biomesoplenty)]
+[14Dec2024 03:15:32.975] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(silentlib)
+[14Dec2024 03:15:32.976] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(silentlib)
+[14Dec2024 03:15:32.976] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(silentlib)
+[14Dec2024 03:15:32.976] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(silentlib)
+[14Dec2024 03:15:32.976] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(silentlib)
+[14Dec2024 03:15:32.976] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(silentlib)]
+[14Dec2024 03:15:32.977] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(justhammers)
+[14Dec2024 03:15:32.977] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(justhammers)
+[14Dec2024 03:15:32.977] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(justhammers)
+[14Dec2024 03:15:32.977] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(justhammers)
+[14Dec2024 03:15:32.977] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(justhammers)
+[14Dec2024 03:15:32.977] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(justhammers)]
+[14Dec2024 03:15:32.978] [main/DEBUG] [mixin/]: Registering mixin config: justhammers-common.mixins.json
+[14Dec2024 03:15:32.981] [main/DEBUG] [mixin/]: Registering mixin config: justhammers.mixins.json
+[14Dec2024 03:15:32.983] [main/ERROR] [mixin/]: Mixin config justhammers.mixins.json does not specify "minVersion" property
+[14Dec2024 03:15:32.986] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(jei)
+[14Dec2024 03:15:32.986] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(jei)
+[14Dec2024 03:15:32.986] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(jei)
+[14Dec2024 03:15:32.986] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(jei)
+[14Dec2024 03:15:32.988] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(jei)
+[14Dec2024 03:15:32.989] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jei)]
+[14Dec2024 03:15:32.989] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(sophisticatedcore)
+[14Dec2024 03:15:32.989] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(sophisticatedcore)
+[14Dec2024 03:15:32.989] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(sophisticatedcore)
+[14Dec2024 03:15:32.989] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(sophisticatedcore)
+[14Dec2024 03:15:32.990] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(sophisticatedcore)
+[14Dec2024 03:15:32.990] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(sophisticatedcore)]
+[14Dec2024 03:15:32.990] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(tac)
+[14Dec2024 03:15:32.990] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(tac)
+[14Dec2024 03:15:32.990] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(tac)
+[14Dec2024 03:15:32.990] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(tac)
+[14Dec2024 03:15:32.991] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(tac)
+[14Dec2024 03:15:32.991] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(tac)]
+[14Dec2024 03:15:32.991] [main/DEBUG] [mixin/]: Registering mixin config: tac.mixins.json
+[14Dec2024 03:15:32.993] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(journeymap)
+[14Dec2024 03:15:32.998] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(journeymap)
+[14Dec2024 03:15:32.998] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(journeymap)
+[14Dec2024 03:15:32.998] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(journeymap)
+[14Dec2024 03:15:32.998] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(journeymap)
+[14Dec2024 03:15:32.998] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(journeymap)]
+[14Dec2024 03:15:32.999] [main/DEBUG] [mixin/]: Registering mixin config: journeymap.mixins.json
+[14Dec2024 03:15:33.000] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(securitycraft)
+[14Dec2024 03:15:33.001] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(securitycraft)
+[14Dec2024 03:15:33.001] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(securitycraft)
+[14Dec2024 03:15:33.001] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(securitycraft)
+[14Dec2024 03:15:33.001] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(securitycraft)
+[14Dec2024 03:15:33.001] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(securitycraft)]
+[14Dec2024 03:15:33.001] [main/DEBUG] [mixin/]: Registering mixin config: securitycraft.mixins.json
+[14Dec2024 03:15:33.003] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(citadel)
+[14Dec2024 03:15:33.013] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(citadel)
+[14Dec2024 03:15:33.013] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(citadel)
+[14Dec2024 03:15:33.013] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(citadel)
+[14Dec2024 03:15:33.013] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(citadel)
+[14Dec2024 03:15:33.013] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(citadel)]
+[14Dec2024 03:15:33.014] [main/DEBUG] [mixin/]: Registering mixin config: citadel.mixins.json
+[14Dec2024 03:15:33.016] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(dungeoncrawl)
+[14Dec2024 03:15:33.016] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(dungeoncrawl)
+[14Dec2024 03:15:33.016] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(dungeoncrawl)
+[14Dec2024 03:15:33.016] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(dungeoncrawl)
+[14Dec2024 03:15:33.017] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(dungeoncrawl)
+[14Dec2024 03:15:33.017] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(dungeoncrawl)]
+[14Dec2024 03:15:33.017] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(bookshelf)
+[14Dec2024 03:15:33.017] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(bookshelf)
+[14Dec2024 03:15:33.017] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(bookshelf)
+[14Dec2024 03:15:33.017] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(bookshelf)
+[14Dec2024 03:15:33.018] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(bookshelf)
+[14Dec2024 03:15:33.018] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(bookshelf)]
+[14Dec2024 03:15:33.018] [main/DEBUG] [mixin/]: Registering mixin config: bookshelf.common.mixins.json
+[14Dec2024 03:15:33.020] [main/DEBUG] [mixin/]: Registering mixin config: bookshelf.forge.mixins.json
+[14Dec2024 03:15:33.022] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(sophisticatedbackpacks)
+[14Dec2024 03:15:33.025] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(sophisticatedbackpacks)
+[14Dec2024 03:15:33.025] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(sophisticatedbackpacks)
+[14Dec2024 03:15:33.025] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(sophisticatedbackpacks)
+[14Dec2024 03:15:33.025] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(sophisticatedbackpacks)
+[14Dec2024 03:15:33.025] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(sophisticatedbackpacks)]
+[14Dec2024 03:15:33.026] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(uteamcore)
+[14Dec2024 03:15:33.026] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(uteamcore)
+[14Dec2024 03:15:33.026] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(uteamcore)
+[14Dec2024 03:15:33.026] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(uteamcore)
+[14Dec2024 03:15:33.026] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(uteamcore)
+[14Dec2024 03:15:33.026] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(uteamcore)]
+[14Dec2024 03:15:33.027] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(spartanweaponry)
+[14Dec2024 03:15:33.027] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(spartanweaponry)
+[14Dec2024 03:15:33.027] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(spartanweaponry)
+[14Dec2024 03:15:33.027] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(spartanweaponry)
+[14Dec2024 03:15:33.033] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(spartanweaponry)
+[14Dec2024 03:15:33.033] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(spartanweaponry)]
+[14Dec2024 03:15:33.033] [main/DEBUG] [mixin/]: Registering mixin config: spartanweaponry.mixins.json
+[14Dec2024 03:15:33.035] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(architectury)
+[14Dec2024 03:15:33.035] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(architectury)
+[14Dec2024 03:15:33.035] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(architectury)
+[14Dec2024 03:15:33.035] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(architectury)
+[14Dec2024 03:15:33.036] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(architectury)
+[14Dec2024 03:15:33.036] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(architectury)]
+[14Dec2024 03:15:33.036] [main/DEBUG] [mixin/]: Registering mixin config: architectury.mixins.json
+[14Dec2024 03:15:33.038] [main/DEBUG] [mixin/]: Compatibility level JAVA_16 specified by architectury.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[14Dec2024 03:15:33.038] [main/DEBUG] [mixin/]: Registering mixin config: architectury-common.mixins.json
+[14Dec2024 03:15:33.040] [main/DEBUG] [mixin/]: Compatibility level JAVA_16 specified by architectury-common.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[14Dec2024 03:15:33.048] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(cfm)
+[14Dec2024 03:15:33.048] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(cfm)
+[14Dec2024 03:15:33.048] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(cfm)
+[14Dec2024 03:15:33.049] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(cfm)
+[14Dec2024 03:15:33.049] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(cfm)
+[14Dec2024 03:15:33.049] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(cfm)]
+[14Dec2024 03:15:33.049] [main/DEBUG] [mixin/]: Registering mixin config: cfm.mixins.json
+[14Dec2024 03:15:33.051] [main/DEBUG] [mixin/]: Compatibility level JAVA_8 specified by cfm.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
+[14Dec2024 03:15:33.051] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(framework)
+[14Dec2024 03:15:33.051] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(framework)
+[14Dec2024 03:15:33.052] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(framework)
+[14Dec2024 03:15:33.052] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(framework)
+[14Dec2024 03:15:33.052] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(framework)
+[14Dec2024 03:15:33.052] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(framework)]
+[14Dec2024 03:15:33.052] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[14Dec2024 03:15:33.052] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[14Dec2024 03:15:33.053] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[14Dec2024 03:15:33.053] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[14Dec2024 03:15:33.053] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[14Dec2024 03:15:33.053] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[14Dec2024 03:15:33.053] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(tlskincape)
+[14Dec2024 03:15:33.053] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(tlskincape)
+[14Dec2024 03:15:33.054] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(tlskincape)
+[14Dec2024 03:15:33.054] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(tlskincape)
+[14Dec2024 03:15:33.054] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(tlskincape)
+[14Dec2024 03:15:33.054] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(tlskincape)]
+[14Dec2024 03:15:33.054] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(lumberjack)
+[14Dec2024 03:15:33.055] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(lumberjack)
+[14Dec2024 03:15:33.055] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(lumberjack)
+[14Dec2024 03:15:33.055] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(lumberjack)
+[14Dec2024 03:15:33.055] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(lumberjack)
+[14Dec2024 03:15:33.055] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(lumberjack)]
+[14Dec2024 03:15:33.055] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinextras)
+[14Dec2024 03:15:33.056] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinextras)
+[14Dec2024 03:15:33.056] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinextras)
+[14Dec2024 03:15:33.056] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinextras)
+[14Dec2024 03:15:33.056] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinextras)
+[14Dec2024 03:15:33.056] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras)]
+[14Dec2024 03:15:33.056] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(MixinExtras)
+[14Dec2024 03:15:33.057] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(MixinExtras)
+[14Dec2024 03:15:33.057] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(MixinExtras)
+[14Dec2024 03:15:33.057] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(MixinExtras)
+[14Dec2024 03:15:33.057] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(MixinExtras)
+[14Dec2024 03:15:33.057] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(MixinExtras)]
+[14Dec2024 03:15:33.058] [main/DEBUG] [mixin/]: inject() running with 32 agents
+[14Dec2024 03:15:33.058] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[14Dec2024 03:15:33.058] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[14Dec2024 03:15:33.058] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(timecontrol)]
+[14Dec2024 03:15:33.058] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(usefulbackpacks)]
+[14Dec2024 03:15:33.059] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(enchdesc)]
+[14Dec2024 03:15:33.059] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(puffish_skills)]
+[14Dec2024 03:15:33.059] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(terrablender)]
+[14Dec2024 03:15:33.059] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(theoneprobe)]
+[14Dec2024 03:15:33.059] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(toolbelt)]
+[14Dec2024 03:15:33.059] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(alexsmobs)]
+[14Dec2024 03:15:33.060] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(biomesoplenty)]
+[14Dec2024 03:15:33.069] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(silentlib)]
+[14Dec2024 03:15:33.069] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(justhammers)]
+[14Dec2024 03:15:33.069] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jei)]
+[14Dec2024 03:15:33.069] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(sophisticatedcore)]
+[14Dec2024 03:15:33.069] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(tac)]
+[14Dec2024 03:15:33.069] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(journeymap)]
+[14Dec2024 03:15:33.070] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(securitycraft)]
+[14Dec2024 03:15:33.070] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(citadel)]
+[14Dec2024 03:15:33.070] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(dungeoncrawl)]
+[14Dec2024 03:15:33.070] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(bookshelf)]
+[14Dec2024 03:15:33.070] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(sophisticatedbackpacks)]
+[14Dec2024 03:15:33.070] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(uteamcore)]
+[14Dec2024 03:15:33.071] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(spartanweaponry)]
+[14Dec2024 03:15:33.071] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(architectury)]
+[14Dec2024 03:15:33.071] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(cfm)]
+[14Dec2024 03:15:33.071] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(framework)]
+[14Dec2024 03:15:33.071] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[14Dec2024 03:15:33.071] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(tlskincape)]
+[14Dec2024 03:15:33.072] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(lumberjack)]
+[14Dec2024 03:15:33.072] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras)]
+[14Dec2024 03:15:33.072] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(MixinExtras)]
+[14Dec2024 03:15:33.119] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[14Dec2024 03:15:33.126] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[PREINIT]
+[14Dec2024 03:15:33.135] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[14Dec2024 03:15:33.141] [main/DEBUG] [mixin/]: Compatibility level JAVA_16 specified by tlskincape-mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[14Dec2024 03:15:33.148] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[14Dec2024 03:15:33.152] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[14Dec2024 03:15:33.152] [main/DEBUG] [mixin/]: Selecting config puffish_skills.mixins.json
+[14Dec2024 03:15:33.161] [main/DEBUG] [mixin/]: Selecting config terrablender.mixins.json
+[14Dec2024 03:15:33.163] [main/DEBUG] [mixin/]: Selecting config terrablender_forge.mixins.json
+[14Dec2024 03:15:33.169] [main/DEBUG] [mixin/]: Selecting config justhammers-common.mixins.json
+[14Dec2024 03:15:33.170] [main/DEBUG] [mixin/]: Selecting config justhammers.mixins.json
+[14Dec2024 03:15:33.171] [main/WARN] [mixin/]: Reference map 'justhammers-forge-forge-refmap.json' for justhammers.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Dec2024 03:15:33.172] [main/DEBUG] [mixin/]: Selecting config tac.mixins.json
+[14Dec2024 03:15:33.174] [main/DEBUG] [mixin/]: Selecting config journeymap.mixins.json
+[14Dec2024 03:15:33.178] [main/DEBUG] [mixin/]: Selecting config securitycraft.mixins.json
+[14Dec2024 03:15:33.182] [main/DEBUG] [mixin/]: Selecting config citadel.mixins.json
+[14Dec2024 03:15:33.190] [main/DEBUG] [mixin/]: Selecting config bookshelf.common.mixins.json
+[14Dec2024 03:15:33.192] [main/DEBUG] [mixin/]: Selecting config bookshelf.forge.mixins.json
+[14Dec2024 03:15:33.194] [main/DEBUG] [mixin/]: Selecting config spartanweaponry.mixins.json
+[14Dec2024 03:15:33.195] [main/DEBUG] [mixin/]: Selecting config architectury.mixins.json
+[14Dec2024 03:15:33.205] [main/DEBUG] [mixin/]: Selecting config architectury-common.mixins.json
+[14Dec2024 03:15:33.210] [main/DEBUG] [mixin/]: Selecting config cfm.mixins.json
+[14Dec2024 03:15:33.211] [main/DEBUG] [mixin/]: Selecting config tlskincape-mixins.json
+[14Dec2024 03:15:33.223] [main/DEBUG] [mixin/]: Preparing puffish_skills.mixins.json (18)
+[14Dec2024 03:15:33.375] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/ItemStack
+[14Dec2024 03:15:33.414] [main/WARN] [mixin/]: Error loading class: net/minecraft/world/item/ItemStack (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[14Dec2024 03:15:33.420] [main/WARN] [mixin/]: @Mixin target net.minecraft.world.item.ItemStack was not found puffish_skills.mixins.json:ItemStackMixin
+[14Dec2024 03:15:33.510] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming m_143399_ with desc (Lnet/minecraft/world/inventory/AbstractContainerMenu;)V
+[14Dec2024 03:15:33.652] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
+[14Dec2024 03:15:33.792] [main/DEBUG] [mixin/]: Preparing terrablender.mixins.json (4)
+[14Dec2024 03:15:33.817] [main/DEBUG] [mixin/]: Preparing terrablender_forge.mixins.json (1)
+[14Dec2024 03:15:33.844] [main/DEBUG] [mixin/]: Preparing justhammers-common.mixins.json (1)
+[14Dec2024 03:15:33.854] [main/DEBUG] [mixin/]: Preparing justhammers.mixins.json (0)
+[14Dec2024 03:15:33.854] [main/DEBUG] [mixin/]: Preparing tac.mixins.json (20)
+[14Dec2024 03:15:33.921] [main/DEBUG] [mixin/]: Preparing journeymap.mixins.json (2)
+[14Dec2024 03:15:33.924] [main/DEBUG] [mixin/]: Preparing securitycraft.mixins.json (17)
+[14Dec2024 03:15:34.019] [main/DEBUG] [mixin/]: Preparing citadel.mixins.json (5)
+[14Dec2024 03:15:34.043] [main/DEBUG] [mixin/]: Preparing bookshelf.common.mixins.json (18)
+[14Dec2024 03:15:34.076] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[14Dec2024 03:15:34.198] [main/DEBUG] [mixin/]: Preparing bookshelf.forge.mixins.json (1)
+[14Dec2024 03:15:34.201] [main/DEBUG] [mixin/]: Preparing spartanweaponry.mixins.json (7)
+[14Dec2024 03:15:34.237] [main/DEBUG] [mixin/]: Preparing architectury.mixins.json (9)
+[14Dec2024 03:15:34.267] [main/DEBUG] [mixin/]: Preparing architectury-common.mixins.json (9)
+[14Dec2024 03:15:34.326] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[14Dec2024 03:15:34.360] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[14Dec2024 03:15:34.374] [main/DEBUG] [mixin/]: Preparing cfm.mixins.json (1)
+[14Dec2024 03:15:34.374] [main/DEBUG] [mixin/]: Preparing tlskincape-mixins.json (4)
+[14Dec2024 03:15:34.383] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[14Dec2024 03:15:34.385] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[14Dec2024 03:15:34.389] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[14Dec2024 03:15:34.391] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[14Dec2024 03:15:34.391] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[14Dec2024 03:15:34.391] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[14Dec2024 03:15:34.392] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[14Dec2024 03:15:34.392] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[14Dec2024 03:15:34.446] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[14Dec2024 03:15:34.448] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[14Dec2024 03:15:34.454] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[14Dec2024 03:15:34.455] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[14Dec2024 03:15:34.459] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[14Dec2024 03:15:34.467] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[14Dec2024 03:15:34.478] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[14Dec2024 03:15:34.481] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[14Dec2024 03:15:34.482] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[14Dec2024 03:15:34.485] [main/WARN] [mixin/]: Error loading class: java/util/Map$Entry (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[14Dec2024 03:15:34.489] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[14Dec2024 03:15:34.492] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[14Dec2024 03:15:34.495] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[14Dec2024 03:15:34.512] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[14Dec2024 03:15:34.519] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[14Dec2024 03:15:34.544] [main/WARN] [mixin/]: Error loading class: java/util/Map$Entry (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[14Dec2024 03:15:34.546] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[14Dec2024 03:15:34.554] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[14Dec2024 03:15:34.558] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 65)
+[14Dec2024 03:15:34.579] [main/DEBUG] [mixin/]: Prepared 75 mixins in 1.425 sec (19.0ms avg) (0ms load, 0ms transform, 0ms plugin)
+[14Dec2024 03:15:34.652] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[14Dec2024 03:15:34.659] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[14Dec2024 03:15:34.659] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[14Dec2024 03:15:34.909] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@fe7b6b0
+[14Dec2024 03:15:34.910] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@d716361
+[14Dec2024 03:15:34.934] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[14Dec2024 03:15:34.937] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[14Dec2024 03:15:34.971] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@fe7b6b0
+[14Dec2024 03:15:34.973] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@d716361
+[14Dec2024 03:15:35.041] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[14Dec2024 03:15:35.042] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[14Dec2024 03:15:35.154] [main/DEBUG] [mixin/]: Mixing inject.MixinGameEvent from architectury-common.mixins.json into net.minecraft.world.level.gameevent.GameEvent
+[14Dec2024 03:15:35.268] [main/DEBUG] [mixin/]: Mixing BlockMixin from puffish_skills.mixins.json into net.minecraft.world.level.block.Block
+[14Dec2024 03:15:35.271] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$injectAtAfterBreak$0(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/ItemStack;Lnet/puffish/skillsmod/api/experience/source/ExperienceSource;)Ljava/lang/Integer; to md9ad4ca$lambda$injectAtAfterBreak$0$0 in puffish_skills.mixins.json:BlockMixin
+[14Dec2024 03:15:35.287] [main/WARN] [mixin/]: Error loading class: java/lang/Integer (java.lang.IllegalArgumentException: Unsupported class file major version 65)
